@@ -36,10 +36,20 @@ body {
   width: 200px;
   transform: rotate(20deg);
 }
+
+.profilpic {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 50px;
+  border: 10px solid black;
+}
 .otterappear {
   position: absolute;
   top: 105px;
-  right: 250px;
+  right: 380px;
   width: 75px;
 }
 .presentation {
@@ -104,15 +114,6 @@ body {
 .soustitle {
   font-family: lego;
   font-size: 32px;
-}
-
-.profilpic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 50px;
-  border: 10px solid black;
 }
 .footer {
   justify-content: center;
