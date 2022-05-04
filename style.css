@@ -1,0 +1,191 @@
+@import url('link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"');
+@import "bourbon@5.*";
+@import "neat@2.*";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@font-face {
+  font-family: pokemon;
+  src: url("fonts/PocketMonk-15ze.ttf");
+}
+@font-face {
+  font-family: lego;
+  src: url("fonts/Legothick.ttf");
+}
+
+body {
+  background-image: url("images/legobackground.webp");
+  background-size: cover;
+  background-color: white;
+  font-family: 'Lobster', cursive;
+}
+
+.banner {
+  position: relative;
+  background-color: #ffcf00;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  border-radius: 20px;
+  border-radius: 150px 150px 10px 10px;
+  margin: 10px 200px 30px 200px;
+  border: 5px solid black;
+  box-shadow: 0 10px 0px black;
+}
+.legohead {
+  position: absolute;
+  bottom: -50px;
+  right: -80px;
+  width: 200px;
+  transform: rotate(20deg);
+}
+.otterappear {
+  position: absolute;
+  top: 105px;
+  right: 250px;
+  width: 75px;
+}
+.presentation {
+  position: relative;
+  background-color: #ce597c;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  border-radius: 10px;
+  margin: 10px 300px 30px 100px;
+  border: 5px solid black;
+  box-shadow: 0 10px 0px black;
+}
+.blocnoir {
+  position: absolute;
+  top: -45px;
+  left: -40px;
+  width: 120px;
+}
+
+.CV {
+  position: relative;
+  background-color: #63b26e;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  border-radius: 10px;
+  margin: 10px 100px 30px 300px;
+  border: 5px solid black;
+  box-shadow: 0 10px 0px black;
+}
+.blocviolet {
+  position: absolute;
+  bottom: -45px;
+  right: -40px;
+  width: 120px;
+}
+.footer {
+  position: relative;
+  background-color: #089ad4;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  border-radius: 10px;
+  margin: 10px 300px 30px 100px;
+  border: 5px solid black;
+  box-shadow: 0 10px 0px black;
+}
+.blocorange {
+  position: absolute;
+  bottom: -45px;
+  right: -40px;
+  width: 120px;
+}
+.blocvert {
+  position: absolute;
+  top: -45px;
+  left: -40px;
+  width: 120px;
+}
+#title {
+  font-family: lego;
+  font-size: 72px;
+}
+.soustitle {
+  font-family: lego;
+  font-size: 32px;
+}
+
+.profilpic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 50px;
+  border: 10px solid black;
+}
+.footer {
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.list_inline {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.fab {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  font-size: 40px;
+}
+.fab:hover {
+  color: #ffcf00;
+}
+
+.button{
+  position:relative;
+  display:inline-block;
+  margin:20px;
+}
+
+.button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:36px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:20px 40px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active{
+  top:10px;
+  background-color:lego;
+
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
